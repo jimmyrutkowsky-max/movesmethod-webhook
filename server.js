@@ -13,7 +13,7 @@ const DATA_FILE = process.env.DATA_FILE || path.join(__dirname, 'data', 'events.
 
 const VALID_STAGES = [
   'landing_page_view',
-  'checkout_page_view',
+  'leads',
   'order_confirmation',
   'upsell_1_view',
   'upsell_1_purchase',
@@ -22,7 +22,7 @@ const VALID_STAGES = [
 ];
 
 const VALID_SOURCES = [
-  'facebook_ads',
+  'meta_ads',
   'youtube_ads',
   'google_ads',
   'tiktok_ads',
